@@ -1,10 +1,10 @@
 import random
 
 def data_pull():
-        hr = random.randint(60, 100)
-        bp1 = random.randint(120, 140)
-        bp2 = random.randint(80, 90)
-        bo = random.randint(75, 100)
+        hr = random.randint(55, 125)
+        bp1 = random.randint(115, 145)
+        bp2 = random.randint(78, 92)
+        bo = random.randint(65, 115)
 
         pdata = {
                 "heart_rate": hr,
