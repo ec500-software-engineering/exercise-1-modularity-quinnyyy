@@ -1,4 +1,5 @@
 from gui2 import runUI
+from ask_intervals import get_intervals
 
-#hr_interval,bp_interval,bp2_interval,bo_interval
-runUI(1,2,5,10)
+hr,bp,bp2,bo = get_intervals()
+runUI(hr,bp,bp2,bo)
