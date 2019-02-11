@@ -1,5 +1,5 @@
 # EC500 Health Monitor System
-To run it: python3 main.py
+To run it: ```python3 main.py```
 
 User should input the intervals for each measurement to tell the GUI how often to update.
 
