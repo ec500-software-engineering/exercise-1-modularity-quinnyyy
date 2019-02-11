@@ -1,15 +1,4 @@
-from gui import runUI
-from error_handler import Error_Handler
-from data import data_pull
-from alert_system import page_doctor
-import time
+from gui2 import runUI
 
-while True:
-    time.sleep(2)
-    pdata = data_pull()
-    print(pdata)
-    warning, identifier = Error_Handler(pdata)
-    print(warning)
-    print(identifier)
-    page_doctor(pdata,identifier,warning)
-#runUI()
+#hr_interval,bp_interval,bp2_interval,bo_interval
+runUI(1,2,5,10)

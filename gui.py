@@ -20,20 +20,20 @@ min_int = 5
 def runUI():
 
     window = Tk()
-    
+
     hr = IntVar()
     bp = IntVar()
     bp2 = IntVar()
     bo = IntVar()
 
     window.title("EC500 Health Monitor System")
-    
+
     label1 = Label(window, text='Heart Rate')
     label1.grid(row=0, column=0)
 
     textBox1 = Label(window, height=2, width=10, textvariable = hr)
     textBox1.grid(row=1, column=0)
-    
+
     label2 = Label(window, text='Systolic Blood Pressure')
     label2.grid(row=0, column=1)
 
@@ -51,11 +51,11 @@ def runUI():
 
     textBox3 = Label(window, height=2, width=10, textvariable = bo)
     textBox3.grid(row=1, column=3)
-    
+
     def dataLoop():
         mainLoop(hr, bp, bp2, bo)
         window.after(min_int * 1000, dataLoop)
-    
+
     window.after(min_int * 1000, dataLoop)
 
     window.mainloop()
