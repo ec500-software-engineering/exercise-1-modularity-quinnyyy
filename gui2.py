@@ -72,5 +72,4 @@ def runUI(hr_interval,bp_interval,bp2_interval,bo_interval):
     update_bp()
     update_bp2()
     update_bo()
-
     window.mainloop()

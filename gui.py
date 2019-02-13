@@ -1,5 +1,7 @@
 from tkinter import *
 from data import data_pull
+from data import pdata
+import random
 import time
 from error_handler import Error_Handler
 from datastore import insertData
