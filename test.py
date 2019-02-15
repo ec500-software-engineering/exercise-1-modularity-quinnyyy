@@ -1,14 +1,10 @@
 from data import pdata
-import threading
-import random
 
-x = pdata()
+test = pdata()
+print(test.hr)
 
-def test(x):
-    wait = random.randint(1,5)
-    threading.Timer(wait, test, [x]).start()
-    x.generate()
-    print(x.pull())
+def change():
+    test.generate()
 
-
-test(x)
+change()
+print(test.hr)
