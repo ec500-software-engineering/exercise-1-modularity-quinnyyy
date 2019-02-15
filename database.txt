@@ -354,3 +354,15 @@
 10	TIME: 1550269232.497531	{'heart_rate': 83, 'blood_pressure1': 122, 'blood_pressure2': 86, 'blood_oxygen': 92}
 10	TIME: 1550269234.700644	{'heart_rate': 109, 'blood_pressure1': 130, 'blood_pressure2': 81, 'blood_oxygen': 101}
 10	TIME: 1550269238.903306	{'heart_rate': 104, 'blood_pressure1': 134, 'blood_pressure2': 91, 'blood_oxygen': 88}
+10	TIME: 1550269350.4594188	{'heart_rate': 121, 'blood_pressure1': 125, 'blood_pressure2': 87, 'blood_oxygen': 85}
+10	TIME: 1550269352.661957	{'heart_rate': 105, 'blood_pressure1': 129, 'blood_pressure2': 89, 'blood_oxygen': 106}
+10	TIME: 1550269356.864647	{'heart_rate': 96, 'blood_pressure1': 132, 'blood_pressure2': 82, 'blood_oxygen': 103}
+10	TIME: 1550269359.167836	{'heart_rate': 119, 'blood_pressure1': 133, 'blood_pressure2': 87, 'blood_oxygen': 84}
+10	TIME: 1550269360.471061	{'heart_rate': 73, 'blood_pressure1': 128, 'blood_pressure2': 89, 'blood_oxygen': 71}
+10	TIME: 1550269538.98176	{'heart_rate': 121, 'blood_pressure1': 128, 'blood_pressure2': 90, 'blood_oxygen': 82}
+10	TIME: 1550269544.1849458	{'heart_rate': 100, 'blood_pressure1': 134, 'blood_pressure2': 90, 'blood_oxygen': 102}
+10	TIME: 1550269545.487958	{'heart_rate': 98, 'blood_pressure1': 132, 'blood_pressure2': 88, 'blood_oxygen': 92}
+10	TIME: 1550269546.8909361	{'heart_rate': 67, 'blood_pressure1': 131, 'blood_pressure2': 91, 'blood_oxygen': 92}
+10	TIME: 1550269549.394086	{'heart_rate': 51, 'blood_pressure1': 141, 'blood_pressure2': 79, 'blood_oxygen': 93}
+10	TIME: 1550269550.797055	{'heart_rate': 112, 'blood_pressure1': 136, 'blood_pressure2': 85, 'blood_oxygen': 92}
+10	TIME: 1550269555.300128	{'heart_rate': 105, 'blood_pressure1': 130, 'blood_pressure2': 89, 'blood_oxygen': 78}

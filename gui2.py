@@ -9,6 +9,7 @@ import asyncio
 
 data = pdata()
 loop = asyncio.get_event_loop()
+first = data.get()
 
 def runUI2(hr_interval,bp_interval,bp2_interval,bo_interval):
     window = Tk()
@@ -17,7 +18,7 @@ def runUI2(hr_interval,bp_interval,bp2_interval,bo_interval):
     bp2 = IntVar()
     bo = IntVar()
 
-    trueVals = [0,0,0,0]
+    trueVals = [first["heart_rate"],first["blood_pressure1"],first["blood_pressure2"],first["blood_oxygen"]]
 
     window.title("EC500 Health Montior System")
 
@@ -93,8 +94,4 @@ def runUI2(hr_interval,bp_interval,bp2_interval,bo_interval):
     update_bo()
     loop.create_task(tk_update())
     loop.create_task(after_gen())
-    #loop.create_task(update_hr())
-    #loop.create_task(update_bp())
-    #loop.create_task(update_bp2())
-    #loop.create_task(update_bo())
     loop.run_forever()
