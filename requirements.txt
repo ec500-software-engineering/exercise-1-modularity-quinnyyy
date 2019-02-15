@@ -1,1 +1,3 @@
-tkinter
+mypy
+flake8
+pytest
