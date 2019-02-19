@@ -1,9 +1,8 @@
-from tkinter import *
+from tkinter import Tk, IntVar, Label
 from data import pdata
 from error_handler import Error_Handler
 from alert_system import page_doctor
 from datastore import insertData
-import time
 import random
 import asyncio
 
