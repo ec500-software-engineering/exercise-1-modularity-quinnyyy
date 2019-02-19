@@ -2,4 +2,3 @@ mypy
 flake8
 pytest
 asyncio
-tkinter
